@@ -59,7 +59,7 @@ input[type=button] {
 #first_name {
     margin-right: 1.1rem;
 }
-input[type=text], input[type=email], #password {
+input[type=text], input[type=email], input[type=password] {
     margin-bottom: 1.7rem;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -69,7 +69,7 @@ input[type=text], input[type=email], #password {
     color: rgb(113, 122, 128);
     border: 1px solid rgb(113, 122, 128);
 }
-input[type=email], #password  {
+input[type=email], input[type=password]  {
     width: 100%;
 }
 #email:focus {
