@@ -1,21 +1,21 @@
 body {
     font-family: Helvetica, Tahoma, Verdana, Arial, Geneva, sans-serif;
 }
-main {
+main#login-or-sign-up {
     width: 32rem;
     margin: 15% auto;
     padding: 2rem 1.4rem;
     background-color: rgb(37, 50, 50);
 }
-div {
+div#login-sign-up {
     margin: 0 auto;
     padding: 0;
     width: fit-content;
 }
-form {
+main#login-or-sign-up form {
     text-transform: capitalize;
 }
-h1 {
+main#login-or-sign-up h1 {
     color: #fff;
     text-align: center;
     font-weight: 400;
@@ -24,14 +24,14 @@ h1 {
     margin-bottom: 2rem;
     /* color: rgb(242, 243, 243) */
 }
-input[type=button] {
+main#login-or-sign-up input[type=button] {
     width: 49.2%;
     border: 5px solid;
     padding-top: .5rem;
     padding-bottom: .3rem;
     font-size: .9rem;
 }
-#sign_up {    
+main#login-or-sign-up #sign_up {    
     margin-right: 0;
     margin-left: 0;
     border-color: rgb(54, 169, 132);
@@ -39,10 +39,10 @@ input[type=button] {
     background-color: rgb(54, 169, 132);
     color: #fff;
 }
-#sign_up:hover {
+main#login-or-sign-up #sign_up:hover {
     background-color: rgb(84, 193, 158);
 }
-#log_in {
+main#login-or-sign-up #log_in {
     background-color: rgb(69, 82, 89);
     margin-left: -2px;
     margin-right: 0;
@@ -50,16 +50,16 @@ input[type=button] {
     padding-left: 2px;
     color: rgb(163, 176, 165);
 }
-#log_in:hover {
+main#login-or-sign-up #log_in:hover {
     background-color: rgb(76, 86, 91);
 }
-.name {
+main#login-or-sign-up .name {
     width: 47%;
 }
-#first_name {
+main#login-or-sign-up #first_name {
     margin-right: 1.1rem;
 }
-input[type=text], input[type=email], input[type=password] {
+main#login-or-sign-up input[type=text], input[type=email], input[type=password] {
     margin-bottom: 1.7rem;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -69,13 +69,13 @@ input[type=text], input[type=email], input[type=password] {
     color: rgb(113, 122, 128);
     border: 1px solid rgb(113, 122, 128);
 }
-input[type=email], input[type=password]  {
+main#login-or-sign-up input[type=email], input[type=password]  {
     width: 100%;
 }
-#email:focus {
+main#login-or-sign-up #email:focus {
     width: 100%;
 }
-input[type=submit] {
+main#login-or-sign-up input[type=submit] {
     width: 100%;
     padding-top: .4rem;
     padding-bottom: .5rem;
@@ -87,6 +87,6 @@ input[type=submit] {
     text-transform: uppercase;
     color: #fff;
 }
-input[type=submit]:hover {
+main#login-or-sign-up input[type=submit]:hover {
     background-color: rgb(84, 193, 158);
 }
